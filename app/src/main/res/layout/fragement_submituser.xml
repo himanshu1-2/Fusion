@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_margin_20"
+        android:text="@string/name" />
+
+    <EditText
+        android:id="@+id/et_fragment_submituser_name"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_height="wrap_content"
+
+        android:padding="@dimen/margin_10"
+        android:background="@drawable/roundedcornerandcolour"
+        android:inputType="textPersonName"
+        android:text="" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:textSize="@dimen/text_margin_20"
+        android:text="@string/desgination" />
+
+    <Spinner
+        android:id="@+id/sp_fragment_submituser_desgination"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_45"
+        android:layout_marginTop="@dimen/margin_5"
+        />
+
+    <Button
+        android:id="@+id/btn_fragment_submituser_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_60"
+        android:background="@drawable/roundedcornerbutton"
+        android:text="@string/Add" />
+
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="300dp" />
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:textColor="@color/black"
+        android:text="@string/name"
+        android:layout_marginTop="@dimen/margin_10"
+        android:textSize="@dimen/text_margin_20" />
+
+
+    <TextView
+        android:id="@+id/txt_listitem_userdata_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_65"
+        android:layout_marginTop="@dimen/margin_10"
+        android:textColor="@color/black"
+        android:textSize="@dimen/margin_20"
+
+
+        />
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_15"
+    android:text="@string/desgination"
+    android:layout_marginTop="@dimen/margin_10"
+    android:textColor="@color/black"
+    android:textSize="@dimen/text_margin_20" />
+
+
+<TextView
+    android:id="@+id/txt_listitem_userdata_desgination"
+    android:layout_width="wrap_content"
+    android:textColor="@color/black"
+    android:layout_marginTop="@dimen/margin_10"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_15"
+    android:textSize="@dimen/text_margin_20" />
+
+
+</LinearLayout>
+
+
+
+<Button
+    android:id="@+id/btn_listitem_userdata_edit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/roundedcornerbutton"
+android:layout_marginTop="@dimen/text_margin_20"
+
+    android:text="@string/edit" />
+
+    <Button
+        android:id="@+id/btn_listitem_userdata_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin_20"
+
+        android:background="@drawable/roundedcornerbutton"
+        android:text="@string/delete"
+        android:textAlignment="center" />
+
+
+
+
+    </LinearLayout>

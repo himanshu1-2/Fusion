@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/et_activity_main_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/allcornerrounded"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:text="Username"
+        android:textAlignment="center"
+        android:textColor="@color/lightblack" />
+
+
+
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/et_activity_main_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/allcornerrounded"
+        android:ems="10"
+        android:inputType=""
+        android:textAlignment="center"
+
+        android:padding="10dp"
+        android:text="password" />
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btn_activity_main_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+
+        android:background="@drawable/buttondesign"
+        android:text="Login"
+
+        android:textColor="@color/white" />
+
+
+
+        android:background="@drawable/buttondesign"
+        android:text="SignUp"
+
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:id="@+id/txt_activity_main_name"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+</LinearLayout>
+

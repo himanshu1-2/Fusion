@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    >
+
+    >
+
+
+    <group
+        android:id="@+id/gr1"
+        >
+
+        <item android:title="Leave Request"
+            android:id="@+id/leave"
+            ></item>
+
+    </group>
+
+    <group
+        android:id="@+id/gr2">
+        <item android:title="Leave Approval"
+            android:id="@+id/approve"></item>
+
+    </group>
+
+</menu>

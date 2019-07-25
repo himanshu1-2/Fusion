@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fusion</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="delete">DELETE</string>
+    <string name="edit">Edit</string>
+    <string name="name">Name</string>
+    <string name="desgination">Desgination</string>
+    <string name="android">Android</string>
+    <string name="ios">IOS</string>
+    <string name="backend">Backend</string>
+    <string name="python">Python</string>
+    <string name="QA">QA</string>
+    <string name="Add">ADD</string>
+    <string name="listview">listview</string>
+    <string name="gridview">gridview</string>
+
+    <string name="flag">flag</string>
+</resources>
